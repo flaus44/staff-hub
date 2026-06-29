@@ -143,7 +143,11 @@ export default buildConfig({
     migrationDir: path.resolve(dirname, 'migrations'),
   }),
   sharp,
-  cors: [process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'].filter(Boolean),
+  cors: [
+    process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000',
+    'https://www.flaus.com.au',
+    'https://flaus.com.au',
+  ].filter(Boolean),
   endpoints: [
     healthCheck,
     createInvite,

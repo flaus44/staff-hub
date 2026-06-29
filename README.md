@@ -26,4 +26,4 @@ Default local DB: `postgresql://staff:staff_dev@localhost:5433/staff_hub`
 
 Render blueprint: `render.yaml` at repo root. Set `NEXT_PUBLIC_SERVER_URL` and `SEED_ADMIN_PASSWORD` in dashboard.
 
-Production URL: https://staff.flaus.com.au
+Production URL: https://www.flaus.com.au/staff (proxied from Render via marketing site rewrites)
