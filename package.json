@@ -1,0 +1,18 @@
+{
+  "name": "staff-hub",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@flaus/staff",
+    "build": "npm run build --workspace=@flaus/staff",
+    "start": "npm run start --workspace=@flaus/staff",
+    "generate:types": "npm run generate:types --workspace=@flaus/staff"
+  },
+  "engines": {
+    "node": "^20.9.0 || >=22"
+  }
+}

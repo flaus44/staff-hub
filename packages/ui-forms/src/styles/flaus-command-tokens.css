@@ -1,0 +1,13 @@
+:root {
+  --cmd-bg: #0a0a0a;
+  --cmd-surface: #141414;
+  --cmd-surface-raised: #1c1c1e;
+  --cmd-border: #2c2c2e;
+  --cmd-text: #ffffff;
+  --cmd-text-muted: #8e8e93;
+  --cmd-accent: #3e6ae1;
+  --cmd-live: #30d158;
+  --cmd-warn: #ff9f0a;
+  --cmd-critical: #ff453a;
+  --flaus-brand: #142a6e;
+}

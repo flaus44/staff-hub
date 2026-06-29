@@ -1,0 +1,45 @@
+{
+  "name": "@flaus/ui-forms",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./Button": "./src/components/ui/Button.tsx",
+    "./Input": "./src/components/ui/Input.tsx",
+    "./Select": "./src/components/ui/Select.tsx",
+    "./TextArea": "./src/components/ui/TextArea.tsx",
+    "./Checkbox": "./src/components/ui/Checkbox.tsx",
+    "./StepIndicator": "./src/components/form/StepIndicator.tsx",
+    "./SignaturePad": "./src/components/signature/SignaturePad.tsx",
+    "./StatusPill": "./src/components/ui/StatusPill.tsx",
+    "./Card": "./src/components/ui/Card.tsx",
+    "./EmptyState": "./src/components/ui/EmptyState.tsx",
+    "./Skeleton": "./src/components/ui/Skeleton.tsx",
+    "./PortalCard": "./src/components/ui/PortalCard.tsx",
+    "./ListRow": "./src/components/ui/ListRow.tsx",
+    "./SectionHeader": "./src/components/ui/SectionHeader.tsx",
+    "./StatTile": "./src/components/ui/StatTile.tsx",
+    "./MetricBar": "./src/components/ui/MetricBar.tsx",
+    "./ActionTile": "./src/components/ui/ActionTile.tsx",
+    "./ListRow": "./src/components/ui/ListRow.tsx",
+    "./SectionHeader": "./src/components/ui/SectionHeader.tsx",
+    "./StatTile": "./src/components/ui/StatTile.tsx",
+    "./MetricBar": "./src/components/ui/MetricBar.tsx",
+    "./ActionTile": "./src/components/ui/ActionTile.tsx",
+    "./PortalSectionRow": "./src/components/ui/PortalSectionRow.tsx",
+    "./PortalHubCard": "./src/components/ui/PortalHubCard.tsx",
+    "./PageHeader": "./src/components/ui/PageHeader.tsx",
+    "./ProgressBar": "./src/components/ui/ProgressBar.tsx",
+    "./tailwind-preset": "./tailwind.preset.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.0.0",
+    "signature_pad": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
